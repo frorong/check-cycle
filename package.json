@@ -1,0 +1,30 @@
+{
+  "name": "check-cycle",
+  "version": "1.0.2",
+  "description": "check circular reference",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frorong/check-cycle.git"
+  },
+  "keywords": [
+    "circular",
+    "reference"
+  ],
+  "author": "sjlee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frorong/check-cycle/issues"
+  },
+  "homepage": "https://github.com/frorong/check-cycle#readme",
+  "dependencies": {
+    "madge": "^8.0.0",
+    "path": "^0.12.7"
+  },
+  "bin": {
+    "check-cycle": "./index.js"
+  }
+}
